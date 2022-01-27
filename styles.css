@@ -1,13 +1,32 @@
-body{
-    background-color: lightblue;
-};
-.title{
-    color:white;
-    /* center of header, stacked in two lines */
-};
-
-.beach{
+.beach {
     background-image: url("https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-320-80.jpg");
-    /* only taking up the top third of the page */
-    /* image is non repeating */
-};
+    height: 300px;
+    background-size: cover;
+}
+.title {
+    color:black;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#web-description {
+    font-size: larger;
+    text-align: center;
+}
+
+#trips {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+section > div {
+    background-color: red;
+}
+body {
+    background-color: lightblue;
+}
