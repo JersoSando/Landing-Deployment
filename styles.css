@@ -1,7 +1,13 @@
-.test{
-    color:blue
+body{
+    background-color: lightblue;
+}
+.title{
+    color:white;
+    /* center of header, stacked in two lines */
 }
 
-body{
-    background-color: aqua;
+.beach{
+    background-image: url("https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-320-80.jpg");
+    /* only taking up the top third of the page */
+    /* image is non repeating */
 }
